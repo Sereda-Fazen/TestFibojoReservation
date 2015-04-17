@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="111598fcc1638855f2b979271cfad951793f29b39c78b6ae9cfdf84c3b36156e.html">Test form reservation </a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 16-04-2015 18:23</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Test form reservation<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">55,16s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="948bcf9421cc58b1a188a6ae25da8d66105ba4e1bc6492fe4b27c945f3935c72.html">Sign Up (tag)</a>
+                        <a class="tagLink" href="c94dc8c833ae244f74b096cebf3ffab166deda9ff18fc2062e8cc7748fa4f984.html">Compare (story)</a>
+                        <a class="tagLink" href="09e1d8024857619e445b662bd89e27866795d959e427bee300587ceea6133e5c.html">Test Auth (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="3c62c05d2eb6610ab02b4703c3122776_NONE.png" alt="" title="Launch your web browser - 'Chrome'" width="1034"/>
+                <img src="0bb8a4e3f822e2b1391adcebc3888665_NONE.png" alt="" title="Clicked 'Hotel'" width="1366"/>
+                <img src="7e8e978186c40f8e5d7427d3b0faff4f_NONE.png" alt="" title="Clicked 'Hotel'" width="1366"/>
+                <img src="f9f61f8cdc07cfcbbdb166604d7f5105_NONE.png" alt="" title="Clicked 'Room'" width="1366"/>
+                <img src="520bc2dcd8c4f97f6fe167eb2b73cdf6_NONE.png" alt="" title="Clicked 'Date in'" width="1366"/>
+                <img src="ddfea7172774dde9fc9321d555fa0914_NONE.png" alt="" title="Clicked 'Date out'" width="1366"/>
+                <img src="82a9aff7ece0ecb5a697c3dda26a1f43_NONE.png" alt="" title="Clicked 'Date out'" width="1366"/>
+                <img src="13a6f5bc1e6171b7aab4db5c2ef81719_NONE.png" alt="" title="Clicked 'Checkbox'" width="1366"/>
+                <img src="6562e3c624b9a9b7b1a3a2a66589fe16_NONE.png" alt="" title="Clicked 'Checkbox'" width="1366"/>
+                <img src="0706dccce90f4b24e594aee0de64d6db_NONE.png" alt="" title="Clicked 'Persons'" width="1366"/>
+                <img src="9d556e815ad761b6cecb367397bce421_NONE.png" alt="" title="Pushed 'Button'" width="1366"/>
+                <img src="8ee566a98b532baee9f627c946723037_NONE.png" alt="" title="Clicked 'RoomForReserveer'" width="1366"/>
+                <img src="c46962d2f86ddc707c318e3928e08886_NONE.png" alt="" title="Clicked 'Reserveer Nu!'" width="1366"/>
+                <img src="10e964fc9fd27ba4c44ff353164e8cff_NONE.png" alt="" title="Clicked 'Reserveer Nu!'" width="1366"/>
+                <img src="15a19a9bc6fee4932a0347c9521a91f0_NONE.png" alt="" title="Input first name " width="1366"/>
+                <img src="40d5655906483da743bc4fb9650960a1_NONE.png" alt="" title="Input first name " width="1366"/>
+                <img src="7fad82666eff9bc6220912e0fcf60d00_NONE.png" alt="" title="Input second name" width="1366"/>
+                <img src="6aa509060981f229e9fbb95bac37d8f3_NONE.png" alt="" title="Input email" width="1366"/>
+                <img src="e5d02a332914ba19cb914d101f69446f_NONE.png" alt="" title="Input address" width="1366"/>
+                <img src="38c160ea103e2d314a72be97efa96eb2_NONE.png" alt="" title="Input city" width="1366"/>
+                <img src="dba4ce7dca7e01d4d168779f5e268abd_NONE.png" alt="" title="Input postcode" width="1366"/>
+                <img src="fd40910c169e64ee2014d29bbfc181fe_NONE.png" alt="" title="Input phone" width="1366"/>
+                <img src="cf451855bc29506f32ffd0cd7f5be957_NONE.png" alt="" title="Input card number " width="1366"/>
+                <img src="8ba4e0ed9e16d8d9e803b110de204426_NONE.png" alt="" title="Input card gold number" width="1366"/>
+                <img src="15297458ec3d3f4eb2d46d87a1659e92_NONE.png" alt="" title="Input card value" width="1366"/>
+                <img src="26c1e2cba07723374970b9aa3ad1257e_NONE.png" alt="" title="Clicked agree" width="1366"/>
+                <img src="b7d1d48c37e528d950f93b0b7b021ad3_NONE.png" alt="" title="Clicked button" width="1366"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Thucydides version 0.9.275 - Build UNKNOWN</span>
+</div>
+</body>
+</html>

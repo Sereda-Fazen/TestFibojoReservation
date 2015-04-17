@@ -1,0 +1,149 @@
+<acceptance-test-run title="Test form reservation full" name="TestFormReservationFull" steps="22" successful="22" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="53090" timestamp="2015-04-17T09:29:01.177+03:00">
+  <user-story id="utils.Application.TestAuth.Compare" name="Compare" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Compare" type="story"/>
+    <tag name="Sign Up" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="15931">
+    <screenshots>
+      <screenshot image="3c62c05d2eb6610ab02b4703c3122776_NONE.png"/>
+    </screenshots>
+    <description>Launch your web browser - &apos;Chrome&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2854">
+    <screenshots>
+      <screenshot image="0bb8a4e3f822e2b1391adcebc3888665_NONE.png"/>
+      <screenshot image="7e8e978186c40f8e5d7427d3b0faff4f_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;Hotel&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1849">
+    <screenshots>
+      <screenshot image="f9f61f8cdc07cfcbbdb166604d7f5105_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;Room&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1825">
+    <screenshots>
+      <screenshot image="cd0106309c5506b53372a9f52231855e_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;Date in&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1792">
+    <screenshots>
+      <screenshot image="19814fd53043e7af108bf3a6ce180a1b_NONE.png"/>
+      <screenshot image="60a043f5542e5a7ad1ff629889e212da_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;Date out&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1127">
+    <screenshots>
+      <screenshot image="4dacdfe5bf792eb1528ccde1d267215e_NONE.png"/>
+      <screenshot image="6562e3c624b9a9b7b1a3a2a66589fe16_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;Checkbox&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1147">
+    <screenshots>
+      <screenshot image="0706dccce90f4b24e594aee0de64d6db_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;Persons&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1989">
+    <screenshots>
+      <screenshot image="9d556e815ad761b6cecb367397bce421_NONE.png"/>
+    </screenshots>
+    <description>Pushed &apos;Button&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6041">
+    <screenshots>
+      <screenshot image="8ee566a98b532baee9f627c946723037_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;RoomForReserveer&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1889">
+    <screenshots>
+      <screenshot image="c46962d2f86ddc707c318e3928e08886_NONE.png"/>
+      <screenshot image="10e964fc9fd27ba4c44ff353164e8cff_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;Reserveer Nu!&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1327">
+    <screenshots>
+      <screenshot image="15a19a9bc6fee4932a0347c9521a91f0_NONE.png"/>
+      <screenshot image="40d5655906483da743bc4fb9650960a1_NONE.png"/>
+    </screenshots>
+    <description>Input first name </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1179">
+    <screenshots>
+      <screenshot image="5659904b5c4a6ec51249d025d53794fd_NONE.png"/>
+    </screenshots>
+    <description>Input second name</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1000">
+    <screenshots>
+      <screenshot image="0534349eb92ff49f6bf940b88c0c19b5_NONE.png"/>
+    </screenshots>
+    <description>Input email</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1129">
+    <screenshots>
+      <screenshot image="1f72321eec8d0370f9b5fc4f2c59e845_NONE.png"/>
+    </screenshots>
+    <description>Input address</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="801">
+    <screenshots>
+      <screenshot image="557fe2a220d51cf8b3010d0067491f7f_NONE.png"/>
+    </screenshots>
+    <description>Input city</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="796">
+    <screenshots>
+      <screenshot image="34321df6e1657b3fab7a1d5d2d78ed9e_NONE.png"/>
+      <screenshot image="0e261cc7db16c2fd781993f84fcdee98_NONE.png"/>
+    </screenshots>
+    <description>Input postcode</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="757">
+    <screenshots>
+      <screenshot image="51ce5304838a3c87c067dd5eacea2d60_NONE.png"/>
+    </screenshots>
+    <description>Input phone</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="861">
+    <screenshots>
+      <screenshot image="cf451855bc29506f32ffd0cd7f5be957_NONE.png"/>
+    </screenshots>
+    <description>Input card number </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="810">
+    <screenshots>
+      <screenshot image="8ba4e0ed9e16d8d9e803b110de204426_NONE.png"/>
+    </screenshots>
+    <description>Input card gold number</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="829">
+    <screenshots>
+      <screenshot image="27baa605960fd279c1de06b010bc7c26_NONE.png"/>
+    </screenshots>
+    <description>Input card value</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="606">
+    <screenshots>
+      <screenshot image="15297458ec3d3f4eb2d46d87a1659e92_NONE.png"/>
+      <screenshot image="26c1e2cba07723374970b9aa3ad1257e_NONE.png"/>
+    </screenshots>
+    <description>Clicked agree</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1421">
+    <screenshots>
+      <screenshot image="b7d1d48c37e528d950f93b0b7b021ad3_NONE.png"/>
+    </screenshots>
+    <description>Clicked button</description>
+  </test-step>
+</acceptance-test-run>
